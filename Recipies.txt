@@ -10,8 +10,16 @@ beans
 pizza
 
 
+steak
+mushrooms
+thankyou
+
+Done my changes
+
+
 
 thankyou
 
 
 Final copy
+
