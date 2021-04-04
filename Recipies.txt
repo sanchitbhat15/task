@@ -6,4 +6,6 @@ kheer
 pasta
 chicken fry
 chicken tiika
+beans
+pizza
 thankyou
