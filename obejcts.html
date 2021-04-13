@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script> 
+        const person = {
+ firstName: 'john',
+ lastName: 'doe',
+ age: 30,
+ hobbies: ['music','movies','sports'],
+ address: {
+     street: '50 main st',
+     city: 'Boston',
+     state: 'MA'
+ }
+        }
+       console.log(person); //gives all details of object
+        console.log(person.hobbies[1]); //In the person object, print "movies" from the hobbies 
+        console.log(person.address.state); //In the person object, print the "state" value from address key
+        console.log(person.age);
+        console.log(person);
+        person.email= 'john@gmail.com';
+        console.log(person);
+
+const todos = [
+    {
+id : 1,
+text: 'take out trash',
+isCompleted: true
+},
+{
+id : 2,
+text: 'meet with boss',
+isCompleted: true
+},
+{
+id : 3,
+text: 'Dentist appt',
+isCompleted: false
+},
+];
+console.log(todos[1].text);
+  //for
+  for(let i=0; i<=10; i++){
+      console.log(i);
+  }
+  //While
+  let i=0;
+  while(i<10){
+      console.log(i);
+  i++;
+    }
+   //Implement the for loop and while loop like the youtuber and print the id in the todolist
+    for(let i=0; i<todos.length; i++){
+      console.log(todos[i].id);
+  }
+
+  while(i<todos.length){
+      console.log(todos[i].id);
+  i++;
+    }
+   
+        </script>
+</body>
+</html>
