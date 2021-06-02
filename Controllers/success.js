@@ -6,7 +6,6 @@ const contactConroller = require('../Controller/contact')
 
 const router = express.Router();
 
-router.get('/contact', contactConroller.getContact);
-router.post('/contact', contactConroller.getContact);
+router.get('/success',contactConroller.getSuccess);
 
 module.exports = router;
